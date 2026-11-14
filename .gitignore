@@ -1,0 +1,9 @@
+cd ~/ml_project
+cat << 'EOF' > .gitignore
+venv/
+venv_prefect/
+__pycache__/
+*.pyc
+.prefect/
+projet_distant/
+EOF
